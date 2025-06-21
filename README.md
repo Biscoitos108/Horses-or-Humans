@@ -67,24 +67,24 @@ As imagens são redimensionadas para (180, 180) antes da inferência.
 As imagens são exibidas em um grid com no máximo 5 imagens por linha, todas com tamanho uniforme, e legendas com a classe prevista e a confiança.
 
 ### 📊 Análise de Performance
-Acurácia final de validação: aproximadamente 97%.
+* Acurácia final de validação: aproximadamente 97%.
 
-O modelo apresentou val_loss estável após o fine-tuning e callbacks.
+* O modelo apresentou val_loss estável após o fine-tuning e callbacks.
 
-A performance foi avaliada com gráficos de loss e acurácia por época.
+* A performance foi avaliada com gráficos de loss e acurácia por época.
 
-O classificador é adequado para uso inicial, experimentação ou como base para APIs.
+* O classificador é adequado para uso inicial, experimentação ou como base para APIs.
 
 ### 🚀 Próximos Passos
-Aumentar a base de dados com novas amostras.
+* Aumentar a base de dados com novas amostras.
 
-Implementar uma API com FastAPI ou Flask para inferência em tempo real.
+* Implementar uma API com FastAPI ou Flask para inferência em tempo real.
 
-Testar novas arquiteturas (EfficientNet, ResNet50, etc.).
+* Testar novas arquiteturas (EfficientNet, ResNet50, etc.).
 
-Exportar o modelo para .tflite visando uso em dispositivos móveis.
+* Exportar o modelo para .tflite visando uso em dispositivos móveis.
 
-Implementar validação cruzada para avaliação mais robusta.
+* Implementar validação cruzada para avaliação mais robusta.
 
 ### 📁 Estrutura de Diretórios Esperada
 ```bash
