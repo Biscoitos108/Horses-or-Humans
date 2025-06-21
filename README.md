@@ -26,3 +26,76 @@ Este projeto implementa um modelo de deep learning para **classificar imagens en
 
 ```bash
 git clone https://github.com/seu_usuario/projeto-horse-human.git
+```
+### 2. Criar e ativar ambiente virtual (opcional)
+```bash
+
+python -m venv venv
+# Ativação no Windows:
+venv\Scripts\activate
+# Ativação no Linux/macOS:
+source venv/bin/activate
+```
+
+### 3. Instalar dependências
+```bash
+
+pip install -r requirements.txt
+# Alternativamente, instale manualmente:
+
+pip install tensorflow matplotlib numpy pillow ipywidgets
+```
+
+### 4. Executar o notebook
+```bash
+
+jupyter notebook
+# E abra o notebook principal do projeto.
+````
+
+### 📦 Módulo de Inferência
+## Upload de imagens diretamente no Jupyter Notebook
+O notebook permite ao usuário carregar imagens via widget FileUpload (ipywidgets). Após o upload, o modelo carrega as imagens, faz a predição e exibe o resultado visual com rótulo e confiança.
+
+### ✔️ Formatos Aceitos
+PNG, JPG, JPEG ou outros compatíveis com PIL.Image.
+
+### 📐 Tamanho das imagens
+As imagens são redimensionadas para (180, 180) antes da inferência.
+
+### 📊 Exibição dos Resultados
+As imagens são exibidas em um grid com no máximo 5 imagens por linha, todas com tamanho uniforme, e legendas com a classe prevista e a confiança.
+
+### 📊 Análise de Performance
+Acurácia final de validação: aproximadamente 97%.
+
+O modelo apresentou val_loss estável após o fine-tuning e callbacks.
+
+A performance foi avaliada com gráficos de loss e acurácia por época.
+
+O classificador é adequado para uso inicial, experimentação ou como base para APIs.
+
+### 🚀 Próximos Passos
+Aumentar a base de dados com novas amostras.
+
+Implementar uma API com FastAPI ou Flask para inferência em tempo real.
+
+Testar novas arquiteturas (EfficientNet, ResNet50, etc.).
+
+Exportar o modelo para .tflite visando uso em dispositivos móveis.
+
+Implementar validação cruzada para avaliação mais robusta.
+
+### 📁 Estrutura de Diretórios Esperada
+```bash
+dataset/
+├── horse-or-human/
+│   ├── horses/
+│   └── humans/
+├── validation-horse-or-human/
+│   ├── horses/
+│   └── humans/
+```
+
+### 🧠 Autor
+Estêvão Santos Cavalcante
