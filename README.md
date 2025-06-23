@@ -67,7 +67,7 @@ As imagens são redimensionadas para (180, 180) antes da inferência.
 As imagens são exibidas em um grid com no máximo 5 imagens por linha, todas com tamanho uniforme, e legendas com a classe prevista e a confiança.
 
 ### 📊 Análise de Performance
-* Acurácia final de validação: aproximadamente 97%.
+* Acurácia final de validação: aproximadamente 96%.
 
 * O modelo apresentou val_loss estável após o fine-tuning e callbacks.
 
