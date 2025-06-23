@@ -98,4 +98,4 @@ dataset/
 ```
 
 ### 🧠 Autor
-Estêvão Santos Cavalcante
+**Estêvão Santos Cavalcante**
