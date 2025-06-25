@@ -25,7 +25,7 @@ Este projeto implementa um modelo de deep learning para **classificar imagens en
 ### 1. Clonar o repositório ou baixar os arquivos
 
 ```bash
-git clone https://github.com/seu_usuario/projeto-horse-human.git
+git clone https://github.com/Biscoitos108/projeto-horse-human.git
 ```
 ### 2. Criar e ativar ambiente virtual (opcional)
 ```bash
